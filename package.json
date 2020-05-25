@@ -1,6 +1,6 @@
 {
   "name": "kopi-time",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "files": [
@@ -9,8 +9,7 @@
   ],
   "scripts": {
     "build": "rm -rf dist && mkdir dist && babel src -D -d dist",
-    "test": "mocha \"./{,!(node_modules)/**/}*.test.js\"",
-    "publish": "npm run build && npm test && npm publish"
+    "test": "mocha \"./{,!(node_modules)/**/}*.test.js\""
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
