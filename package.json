@@ -16,7 +16,7 @@
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
     "babel-preset-minify": "^0.5.1",
-    "mocha": "^7.1.2"
+    "mocha": "^10.2.0"
   },
   "author": "Yee Hui Poh",
   "license": "ISC"
